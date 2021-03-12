@@ -1,0 +1,49 @@
+@font-face {
+    font-family: OCRAExtendedRegular;
+    src: url("../font/OCRAEXT.TTF");
+}
+
+:root{
+    --backgroudOne : #262626;
+    --backgrounTwo : #666666;
+    --white: #e6e6e6;
+}
+
+
+body {
+    background-color: var(--white);
+    color: var(--backgroudOne);
+    font-family: 'OCRAExtendedRegular';
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: var(--backgroudOne);
+    color: var(--white);
+}
+
+#navbar {
+    background-color: var(--backgrounTwo);
+    color: var(--white);
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1rem;
+    padding-right: 15px;
+}
