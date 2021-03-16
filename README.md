@@ -1,6 +1,6 @@
-#SMALL CODES
+# SMALL CODES
 
-##DESCRIPTION
+## DESCRIPTION
 
 Repo created by myself to store all my small codes to future queries. :computer: &nbsp;
 
